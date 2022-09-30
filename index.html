@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ПетренкоВВ IК93, ЛР5, В8</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <input onchange="validationName(this)" type="text" name="name" id="name" placeholder="ПІБ">
+            <div class="help-block"></div>
+            <input onchange="validationGroup(this)" type="text" name="group" id="group" placeholder="Група">
+            <div class="help-block-2"></div>
+            <input onchange="validationID(this)" type="text" name="id" id="id" placeholder="ID-картка">
+            <div class="help-block-3"></div>
+            <input onchange="validationDob(this)" type="text" name="dob" id="dob" placeholder="Дата народження">
+            <div class="help-block-4"></div>
+            <input onchange="validationMail(this)" type="text" name="mail" id="mail" placeholder="Електронна пошта">
+            <div class="help-block-5"></div>
+            <div class="sbmt-btn"></div>
+        </form>
+    </div>
+    <div class="container-2">
+        <br><br><br>
+        <input type="color" id="clr">
+        <table>
+            <tr>
+                <td>1</td>
+                <td id="2"">2</td>
+                <td>3</td>
+                <td id="4">4</td>
+                <td>5</td>
+                <td id="6">6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td id="8" ondblclick="dbClick()" onmouseover="chRandomColor(this)" onmouseout="chDefault(this)" onclick="this.style.backgroundColor = document.getElementById('clr').value">8</td>
+                <td>9</td>
+                <td id="10">10</td>
+                <td>11</td>
+                <td id="12">12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td id="14">14</td>
+                <td>15</td>
+                <td id="16">16</td>
+                <td>17</td>
+                <td id="18">18</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td id="20">20</td>
+                <td>21</td>
+                <td id="22">22</td>
+                <td>23</td>
+                <td id="24">24</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td id="26">26</td>
+                <td>27</td>
+                <td id="28">28</td>
+                <td>29</td>
+                <td id="30">30</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td id="32">32</td>
+                <td>33</td>
+                <td id="34">34</td>
+                <td>35</td>
+                <td id="36">36</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

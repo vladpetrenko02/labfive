@@ -1,0 +1,44 @@
+input{
+    display: block;
+    margin: 0 0 20px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 270px;
+    padding: 10px 0 10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+input:focus{
+    border: 2px solid black;
+    outline: none;
+}
+.help-block,
+.help-block-2,
+.help-block-3,
+.help-block-4,
+.help-block-5{
+    padding: 0 0 10px;
+    margin-top: -13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: red;
+}
+[type="button"]{
+    width: 278px;
+    height: 30px;
+}
+input[type="color"]{
+    outline: none;
+    border: none;
+    width: 360px;
+    height: 35px;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
